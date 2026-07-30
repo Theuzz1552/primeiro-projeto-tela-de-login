@@ -6,7 +6,7 @@ Uma interface moderna de tela de login desenvolvida para praticar conceitos de d
 
 ## 📸 Preview
 
-[Tela de Login](img/image.png)
+[Tela de Login](img/tela-de-fundo.png)
 
 
 ## ✨ Funcionalidades da Interface
