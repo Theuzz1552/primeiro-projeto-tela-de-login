@@ -1,0 +1,198 @@
+/* Importa a fonte */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:"Open Sans",sans-serif;
+}
+
+body{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    min-height:100vh;
+    background:url('./img/logo2.png') center center no-repeat;
+    background-size:cover;
+}
+
+/* =========================== CONTAINER =========================== */
+
+.container{
+    width:430px;
+    padding:35px 40px;
+    color:#fff;
+    background:rgba(8,18,28,.28);
+    backdrop-filter:blur(25px);
+    -webkit-backdrop-filter:blur(25px);
+    border:1px solid rgba(255,255,255,.12);
+    border-radius:18px;
+    box-shadow: 0 15px 40px rgba(0,0,0,.45);   
+    
+}
+
+.container h1{
+    font-size:32px;
+    font-weight:700;
+    text-align:center;
+    margin-bottom:10px;
+    color:#fff;
+}
+
+/* =========================== INPUTS =========================== */
+
+.input-box{
+    position:relative;
+    width:100%;
+    height:55px;
+    margin:28px 0;
+}
+
+.input-box input{
+
+    width:100%;
+    height:100%;
+    background:rgba(255,255,255,.03);
+    border:2px solid rgba(255,255,255,.15);
+    border-radius:40px;
+    outline:none;
+    padding:0 50px 0 20px;
+    font-size:16px;
+    color:#fff;
+    transition:.3s;
+}
+
+.input-box input:focus{
+
+    border-color:#00C853;
+    box-shadow: 0 0 18px rgba(0,200,83,.25);
+
+}
+
+.input-box input::placeholder{
+    color:#BFC6CE;
+}
+
+.input-box i{
+
+    position:absolute;
+    right:18px;
+    top:50%;
+    transform:translateY(-50%);
+    color:#E5E5E5;
+    font-size:20px;
+    transition:.3s;
+}
+
+.input-box input:focus+i{
+    color:#00C853;
+}
+
+/* =========================== LEMBRAR / ESQUECI SENHA =========================== */
+
+.remember-forgot{
+
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    margin:-8px 0 25px;
+    font-size:14px;
+    color:#fff;
+}
+
+.remember-forgot label{
+    display:flex;
+    align-items:center;
+}
+
+.remember-forgot input{
+    margin-right:6px;
+    accent-color:#00C853;
+}
+
+.remember-forgot a{
+
+    color:#fff;
+    text-decoration:none;
+    transition:.3s;
+}
+
+.remember-forgot a:hover{
+
+    color:#00C853;
+
+}
+
+/* =========================== BOTÃO =========================== */
+
+.login{
+
+    width:100%;
+    height:55px;
+    border:none;
+    border-radius:40px;
+    cursor:pointer;
+    font-size:18px;
+    font-weight:600;
+    color:#fff;
+    background:linear-gradient(
+        135deg,
+        #00D084,
+        #00B86B
+    );
+
+    box-shadow: 0 10px 30px rgba(0,208,132,.35);
+    transition:.3s;
+}
+
+.login:hover{
+
+    background:linear-gradient(
+        135deg,
+        #00B86B,
+        #009F5A
+    );
+
+    transform:translateY(-2px);
+    box-shadow: 0 15px 35px rgba(0,208,132,.45);
+
+}
+
+.login:active{
+
+    transform:scale(.98);
+
+}
+
+/* =========================== CADASTRO =========================== */
+
+.register-link{
+
+    text-align:center;
+    margin-top:22px;
+    color:#BFC6CE;
+    font-size:14px;
+
+}
+
+.register-link a{
+
+    color:#fff;
+    font-weight:600;
+    text-decoration:none;
+    transition:.3s;
+}
+
+.register-link a:hover{
+
+    color:#00C853;
+
+}
+
+/* =========================== SELEÇÃO =========================== */
+
+::selection{
+    background:#00C853;
+    color:#fff;
+}
