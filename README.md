@@ -2,7 +2,9 @@
 
 Uma interface moderna de tela de login desenvolvida para praticar conceitos de desenvolvimento Front-end, design de interfaces e responsividade.
 
-**Este projeto é apenas uma interface (UI). Não possui integração com banco de dados, autenticação ou back-end.**
+⚠️ **Aviso:** 
+Este projeto tem como objetivo demonstrar apenas a interface (UI) de um sistema de autenticação. As telas de Login e Cadastro não possuem integração com banco de dados ou API e, portanto, não realizam autenticação de usuários.
+
 
 ## 📸 Preview
 
@@ -11,13 +13,15 @@ Uma interface moderna de tela de login desenvolvida para praticar conceitos de d
 
 ## ✨ Funcionalidades da Interface
 
-* Layout moderno e minimalista
-* Design responsivo
+* Interface moderna e minimalista
+* Layout responsivo
+* Tela de login
 * Campos de e-mail e senha
-* Botão de login
-* Link para recuperação de senha
-* Interface preparada para futura integração com API de autenticação
-* Código organizado e comentado
+* Opção "Lembrar de mim"
+* Link "Esqueceu a senha" (apenas interface)
+* Link para cadastro (apenas interface)
+* Estrutura preparada para futura integração com autenticação
+* Código organizado
 
 
 ## 🛠️ Tecnologias utilizadas
