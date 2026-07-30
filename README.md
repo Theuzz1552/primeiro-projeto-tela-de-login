@@ -24,9 +24,6 @@ Uma interface moderna de tela de login desenvolvida para praticar conceitos de d
 
 * HTML5
 * CSS3
-* JavaScript
-* React
-* TypeScript
 
 
 ## 🎯 Objetivo
