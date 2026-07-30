@@ -50,7 +50,6 @@ body{
 }
 
 .input-box input{
-
     width:100%;
     height:100%;
     background:rgba(255,255,255,.03);
@@ -64,10 +63,8 @@ body{
 }
 
 .input-box input:focus{
-
     border-color:#00C853;
     box-shadow: 0 0 18px rgba(0,200,83,.25);
-
 }
 
 .input-box input::placeholder{
@@ -75,7 +72,6 @@ body{
 }
 
 .input-box i{
-
     position:absolute;
     right:18px;
     top:50%;
@@ -92,7 +88,6 @@ body{
 /* =========================== LEMBRAR / ESQUECI SENHA =========================== */
 
 .remember-forgot{
-
     display:flex;
     justify-content:space-between;
     align-items:center;
@@ -112,22 +107,18 @@ body{
 }
 
 .remember-forgot a{
-
     color:#fff;
     text-decoration:none;
     transition:.3s;
 }
 
 .remember-forgot a:hover{
-
     color:#00C853;
-
 }
 
 /* =========================== BOTÃO =========================== */
 
 .login{
-
     width:100%;
     height:55px;
     border:none;
@@ -141,43 +132,34 @@ body{
         #00D084,
         #00B86B
     );
-
     box-shadow: 0 10px 30px rgba(0,208,132,.35);
     transition:.3s;
 }
 
 .login:hover{
-
     background:linear-gradient(
         135deg,
         #00B86B,
         #009F5A
     );
-
     transform:translateY(-2px);
     box-shadow: 0 15px 35px rgba(0,208,132,.45);
-
 }
 
 .login:active{
-
     transform:scale(.98);
-
 }
 
 /* =========================== CADASTRO =========================== */
 
 .register-link{
-
     text-align:center;
     margin-top:22px;
     color:#BFC6CE;
     font-size:14px;
-
 }
 
 .register-link a{
-
     color:#fff;
     font-weight:600;
     text-decoration:none;
@@ -185,9 +167,7 @@ body{
 }
 
 .register-link a:hover{
-
     color:#00C853;
-
 }
 
 /* =========================== SELEÇÃO =========================== */
